@@ -11,40 +11,97 @@ body {
   background: #ccc;
   -webkit-font-smoothing: antialiased !important;
   text-rendering: optimizeLegibility !important;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 /* Header */
 
 .header-container {
+  background: url("./images/header-img.svg") no-repeat center center;
+  background-size: cover;
+  padding: 480px 0;
+
   width: 100%;
-  margin: 0 auto;
-  height: 560px;
+  height: 460px;
+
   display: flex;
   align-items: center;
   justify-content: center;
   color: #fff;
 }
 
-.header-container img {
-  width: 100%;
-  z-index: inherit;
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  margin: 0 auto;
-}
-
 .header-content {
   position: absolute;
   text-align: center;
-  line-height: 2;
+  line-height: 1.5;
 }
 
 .header-container h1 {
-  font-size: 62px;
+  font-size: 88px;
   font-weight: none;
+  line-height: 1.5;
 }
 
 .header-container p {
   font-size: 24px;
+  font-style: italic;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
+
+.header-content a {
+  text-decoration: none;
+  background: transparent;
+  padding: 20px 40px;
+  line-height: 1.5;
+  border: 2px solid #ccc;
+  font-size: 18px;
+  color: #fff;
+  font-weight: bold;
+  display: inline-block;
+  vertical-align: middle;
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  backface-visibility: hidden;
+  -moz-osx-font-smoothing: grayscale;
+  transition-duration: 0.3s;
+  transition-property: transform;
+}
+
+.header-content a:hover,
+.header-content a:focus {
+}
+
+.header-content a:hover,
+.header-content a:focus,
+.header-content a:active {
+  transform: scale(1.1);
+}
+
+.product-container {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  height: 360px;
+}
+
+.product-container img {
+  width: 270px;
+  height: 270px;
+  border-radius: 50%;
+  margin-left: 10px;
+  box-shadow: 3px 3px 9px #252525;
+}
+
+.product-content {
+  margin-left: 24px;
+  color: #252525;
+}
+
+.product-content h2 {
+  margin-bottom: 28px;
 }

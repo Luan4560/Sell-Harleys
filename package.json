@@ -1,0 +1,10 @@
+{
+  "name": "Harley",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Luan <luan.nascimento11@outlook.com>",
+  "license": "MIT",
+  "dependencies": {
+    "hover.css": "^2.3.2"
+  }
+}
